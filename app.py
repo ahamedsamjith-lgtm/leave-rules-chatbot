@@ -13,7 +13,7 @@ os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 llm = ChatGoogleGenerativeAI(model="gemini-flash-lite-latest")
 
 #  the PDF is inside the project (no files.upload)
-pdf_name = "leave_rules.pdf"
+pdf_name = "leave-rules-chatbot.pdf"
 
 
 #  your steps are put in one function so Streamlit builds the database only once
